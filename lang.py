@@ -13,6 +13,7 @@ def text_to_voice(text, language):
     file_name = f"{language}_audio.mp3"
     tts.save(file_name)
     playsound(file_name)
+    os.remove(file_name)  # Optional: Remove the file after playing
 
 # Function to convert voice to text
 def voice_to_text(language):
@@ -39,11 +40,11 @@ def voice_to_text(language):
 
 # Language code mapping
 LANGUAGE_CODES = {
-    "English": "en-IN",
-    "Tamil": "ta-IN",
-    "Kannada": "kn-IN",
-    "Telugu": "te-IN",
-    "Hindi": "hi-IN"
+    "English": "en",
+    "Tamil": "ta",
+    "Kannada": "kn",
+    "Telugu": "te",
+    "Hindi": "hi"
 }
 
 # Function to handle text-to-voice UI
