@@ -2,3 +2,5 @@ streamlit
 speech_recognition
 gtts
 playsound
+pyttsx3
+os
