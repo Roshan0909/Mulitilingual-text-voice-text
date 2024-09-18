@@ -1,2 +1,5 @@
 streamlit
 speech_recognition
+playsound
+gtts
+os
