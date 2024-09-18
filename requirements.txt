@@ -1,4 +1,6 @@
 streamlit
-speech_recognition
+
 gtts
-playsound==1.3.0
+
+pydub
+simpleaudio
