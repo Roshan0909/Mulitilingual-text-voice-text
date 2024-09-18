@@ -1,5 +1,4 @@
-streamlit
-speech_recognition
-playsound
-gtts
-os
+streamlit==latest
+speech_recognition==latest
+playsound==latest
+gtts==latest
