@@ -1,5 +1,5 @@
 import streamlit as st
-import SpeechRecognition as sr
+import speech_recognition as sr
 from gtts import gTTS
 import os
 from playsound import playsound
